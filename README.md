@@ -1,6 +1,8 @@
 # nn-poker-bot
 Our CS542 project - A neural network implementation of a poker bot that devises a playing strategy based on the cards it currently has. 
 
+(Collaborated with : Kaviasaran Selvam, Veena Dali)
+
 
 __Important:__ This file describes how to run the code for our project, which is our attempt at an NN-based poker hand-learning and game-playing bot, codenamed “AlphaPo”. It is important to note that, this project does not implement all rules of poker yet, such as betting. For now, our approach is rather boolean, which means AlphaPo decides whether to continue playing or to fold, based on the cards it has received, rather than betting and raising certain amounts of money (which is currently beyond the scope of our project). Moreover, one more aspect that is beyond the scope of our project for now is strength among hands, which basically means deciding who’s hand is stronger, given both have the same category of hands - if both players have a two pair, any two pair, it’s a draw. This is because of lack of data in this aspect. Producing enough data to implement this functionality was not viable given the timeline of our project, and can be easily implemented in the future if the data is provided. We shall refer to this version minus thebetting and intra-hand strength aspects as “experimental” Texas Hold’em. The essence is for the bot to
 1. be able to recognize the hand it has received (High Card, Two Pair, Royal Flush…etc)
